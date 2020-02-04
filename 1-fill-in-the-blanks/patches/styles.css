@@ -1,7 +1,8 @@
-__ {
+section{
   height: 10vh;
   width: 10vw;
   position: fixed;
+  background-color: azure;
 }
 
 #red {
@@ -24,7 +25,7 @@ __ {
   left: 05vw;
 }
 
-#__ {
+#yellow{
   top: 62vh;
   left: 02vw;
 }
