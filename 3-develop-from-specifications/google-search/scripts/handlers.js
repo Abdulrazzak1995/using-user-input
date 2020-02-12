@@ -1,9 +1,10 @@
-function handler(event) {
+function Google(event) {
   // read & process user input
-
+const form = event.target.form;
+const searchText = form['Chercher'].value;
 
   // call the core logic
-
+GoogleURL(searchText);
 
   // render results for the user
 

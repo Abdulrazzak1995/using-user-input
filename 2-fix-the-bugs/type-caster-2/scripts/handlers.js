@@ -1,8 +1,9 @@
 function typeCastHandler(event) {
   // read & process user input
   const form = event.target.form;
-  const intendedType = form.type.value;
-  const newValue = form.value.value;
+  const selected = form.typeSelected;
+  const intendedType = selected.options[selected.selectedIndex].value;
+  const stringToCast = form.inputString.value;
 
   // execute core logic
   const newValue = typeCasting(stringToCast, intendedType);

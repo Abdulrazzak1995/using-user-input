@@ -1,11 +1,13 @@
 function displaySubString(event) {
   // read & process user input
-  const userString = event.target.string.value;
+  const form = event.target.form;
 
-  const preStart = event.target.start.value;
+  const userString = event.stringValue.value;
+
+  const preStart = form.begin.value;
   const start = Number(preStart);
 
-  const preEnd = event.target.end.value;
+  const preEnd = form.end.value;
   const end = Number(preEnd);
 
   // execute core logic

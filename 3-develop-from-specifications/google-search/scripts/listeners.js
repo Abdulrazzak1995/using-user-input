@@ -1,1 +1,1 @@
-document.getElementById('').addEventListener('', handler);
+document.getElementById('searchBtn').addEventListener('click', handler);

@@ -11,6 +11,6 @@ const _Tests = [
   { name: 'tenth', args: [], expected: null },
 ];
 
-function _() { }
-
-testing(_, _Tests);
+function GoogleURL(searchQuery) { }
+window.open('http://www.google.com/search?q=' + escape(searchQuery));
+testing(GoogleURL, searchTests);
