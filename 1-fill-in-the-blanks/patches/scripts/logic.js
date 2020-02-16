@@ -16,7 +16,7 @@ function filterColors(color) {
     || color === 'grey') {
     return color;
   } else {
-    return white;
+    return 'white';
   }
 }
 

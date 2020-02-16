@@ -32,9 +32,7 @@ const keyIsEnterTests = [
 ];
 
 function keyIsEnter(keyCode) {
-  return keyCode === 13
-    ? true
-    : false;
+  return '';
 }
 
 testing(keyIsEnter, keyIsEnterTests);
